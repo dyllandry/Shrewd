@@ -35,10 +35,8 @@ public class BuildUpBar : MonoBehaviour
                 BarValueAtRelease = bar.value;
             }
 
-            if (bar.value == bar.maxValue)
-                buildStatus = BuildStatus.Emptying;
-            else if (bar.value == bar.minValue)
-                buildStatus = BuildStatus.Done;
+            if (bar.value == bar.maxValue) buildStatus = BuildStatus.Emptying;
+            else if (bar.value == bar.minValue) buildStatus = BuildStatus.Done;
         }
     }
 
