@@ -1,1 +1,2 @@
+- [ ] create player that can move around
 - [ ] make BuildUpBar be able to show a distance at the end of the bar that is green

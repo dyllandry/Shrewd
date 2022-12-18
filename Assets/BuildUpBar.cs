@@ -15,6 +15,7 @@ public class BuildUpBar : MonoBehaviour
     void Start()
     {
         bar = GetComponent<Slider>();
+        BarValueAtRelease = bar.minValue;
     }
 
     void Update()
@@ -49,6 +50,7 @@ public class BuildUpBar : MonoBehaviour
     {
         buildStatus = BuildStatus.Idle;
         bar.value = bar.minValue;
+        BarValueAtRelease = bar.minValue;
     }
 }
 
