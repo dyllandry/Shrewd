@@ -1,2 +1,3 @@
-- [ ] create player that can move around
+- [x] create player that can move around
+- [ ] make clickable trees
 - [ ] make BuildUpBar be able to show a distance at the end of the bar that is green
